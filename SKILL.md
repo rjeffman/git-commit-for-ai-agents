@@ -5,10 +5,12 @@ license: GPL-3.0-or-later
 compatibility: Requires git.
 metadata:
   author: Rafael Guterres Jeffman <rjeffman@redhat.com>
-  version: "1.0"
+  version: "1.1"
 ---
 
 **CRITICAL**: A commit to git must **always** be the result of explicit requests, and **never** can be done automatically.
+
+**ALWAYS** display and ask for confirmation of the commit message before commiting changes.
 
 ### Files
 
