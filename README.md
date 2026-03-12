@@ -7,13 +7,22 @@ to a git repository executed by AI agents.
 Installation
 ------------
 
-If you use [Lola](https://github.com/mrbrandao/lola):
+If you use [Lola](https://github.com/mrbrandao/lola), this skill is part
+of the `LeGambiArt` market.
 
 ```
-lola mod add https://github.com/rjeffman/git-commit-for-ai-agents
+lola market add LeGambiArt \
+    https://raw.githubusercontent.com/LeGambiArt/lola-market/main/lola.yml
+lola install git-commit-for-ai-agents
 ```
 
-Or simply download the file to the proper directory (the example uses `claude`):
+Or directly with
+```
+lola mod install https://github.com/jeffman/git-commit-for-ai-agents
+```
+
+If you are not using `Lola`, download the file to the proper directory
+(the example uses `claude-code`):
 
 ```
 curl \
